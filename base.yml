@@ -1,0 +1,3013 @@
+port: 7890
+socks-port: 7891
+allow-lan: false
+mode: Rule
+log-level: info
+external-controller: 127.0.0.1:9090
+experimental:
+  ignore-resolve-fail: true
+hosts:
+  mtalk.google.com: 108.177.125.188
+proxies:
+  - name: FB 0
+    type: socks5
+    server: 63.161.22.71
+    port: "6725"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 1
+    type: socks5
+    server: 193.160.82.3
+    port: "5975"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 2
+    type: socks5
+    server: 192.46.200.33
+    port: "5703"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 3
+    type: socks5
+    server: 192.46.185.162
+    port: "5852"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 4
+    type: socks5
+    server: 192.53.67.85
+    port: "5634"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 5
+    type: socks5
+    server: 192.53.70.172
+    port: "5886"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 6
+    type: socks5
+    server: 63.161.22.250
+    port: "6904"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 7
+    type: socks5
+    server: 63.141.62.26
+    port: "6319"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 8
+    type: socks5
+    server: 206.228.118.159
+    port: "5928"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 9
+    type: socks5
+    server: 192.53.140.71
+    port: "5167"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 10
+    type: socks5
+    server: 63.141.58.207
+    port: "6523"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 11
+    type: socks5
+    server: 63.161.22.238
+    port: "6892"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 12
+    type: socks5
+    server: 206.228.115.28
+    port: "5944"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 13
+    type: socks5
+    server: 63.161.31.47
+    port: "5719"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 14
+    type: socks5
+    server: 63.161.23.167
+    port: "6470"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 15
+    type: socks5
+    server: 63.161.25.122
+    port: "6736"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 16
+    type: socks5
+    server: 63.161.29.33
+    port: "5663"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 17
+    type: socks5
+    server: 216.98.229.225
+    port: "6541"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 18
+    type: socks5
+    server: 192.53.67.20
+    port: "5569"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 19
+    type: socks5
+    server: 63.141.58.4
+    port: "6320"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 20
+    type: socks5
+    server: 63.161.26.121
+    port: "6412"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 21
+    type: socks5
+    server: 63.161.28.43
+    port: "6025"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 22
+    type: socks5
+    server: 206.228.115.140
+    port: "6056"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 23
+    type: socks5
+    server: 63.161.17.59
+    port: "6822"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 24
+    type: socks5
+    server: 192.46.201.52
+    port: "6566"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 25
+    type: socks5
+    server: 198.145.103.11
+    port: "6268"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 26
+    type: socks5
+    server: 206.228.114.224
+    port: "6706"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 27
+    type: socks5
+    server: 63.161.17.66
+    port: "6829"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 28
+    type: socks5
+    server: 193.160.83.96
+    port: "6417"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 29
+    type: socks5
+    server: 192.46.187.0
+    port: "6578"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 30
+    type: socks5
+    server: 192.46.187.189
+    port: "6767"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 31
+    type: socks5
+    server: 216.98.229.127
+    port: "6443"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 32
+    type: socks5
+    server: 216.98.233.198
+    port: "6778"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 33
+    type: socks5
+    server: 192.53.140.250
+    port: "5346"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 34
+    type: socks5
+    server: 63.161.29.100
+    port: "5730"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 35
+    type: socks5
+    server: 216.98.230.19
+    port: "6008"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 36
+    type: socks5
+    server: 192.53.66.96
+    port: "6202"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 37
+    type: socks5
+    server: 192.46.185.51
+    port: "5741"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 38
+    type: socks5
+    server: 63.161.26.164
+    port: "6455"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 39
+    type: socks5
+    server: 206.228.114.27
+    port: "6509"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 40
+    type: socks5
+    server: 206.228.114.56
+    port: "6538"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 41
+    type: socks5
+    server: 192.46.185.182
+    port: "5872"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 42
+    type: socks5
+    server: 63.161.22.221
+    port: "6875"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 43
+    type: socks5
+    server: 63.161.31.200
+    port: "5872"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 44
+    type: socks5
+    server: 192.53.70.216
+    port: "5930"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 45
+    type: socks5
+    server: 216.98.233.180
+    port: "6760"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 46
+    type: socks5
+    server: 45.248.55.74
+    port: "6660"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 47
+    type: socks5
+    server: 63.161.17.218
+    port: "6981"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 48
+    type: socks5
+    server: 192.53.67.127
+    port: "5676"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 49
+    type: socks5
+    server: 198.145.103.223
+    port: "6480"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 50
+    type: socks5
+    server: 206.228.118.161
+    port: "5930"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 51
+    type: socks5
+    server: 192.53.140.38
+    port: "5134"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 52
+    type: socks5
+    server: 206.228.115.176
+    port: "6092"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 53
+    type: socks5
+    server: 63.161.23.180
+    port: "6483"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 54
+    type: socks5
+    server: 192.145.71.215
+    port: "6852"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 55
+    type: socks5
+    server: 192.53.69.202
+    port: "6840"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 56
+    type: socks5
+    server: 63.161.17.169
+    port: "6932"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 57
+    type: socks5
+    server: 63.161.17.223
+    port: "6986"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 58
+    type: socks5
+    server: 63.161.28.190
+    port: "6172"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 59
+    type: socks5
+    server: 192.53.140.195
+    port: "5291"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 60
+    type: socks5
+    server: 192.46.185.120
+    port: "5810"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 61
+    type: socks5
+    server: 63.161.18.76
+    port: "6511"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 62
+    type: socks5
+    server: 192.53.140.47
+    port: "5143"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 63
+    type: socks5
+    server: 206.228.118.157
+    port: "5926"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 64
+    type: socks5
+    server: 63.161.24.2
+    port: "5705"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 65
+    type: socks5
+    server: 63.161.26.181
+    port: "6472"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 66
+    type: socks5
+    server: 192.46.185.146
+    port: "5836"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 67
+    type: socks5
+    server: 206.228.118.19
+    port: "5788"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 68
+    type: socks5
+    server: 192.53.66.37
+    port: "6143"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 69
+    type: socks5
+    server: 192.46.200.96
+    port: "5766"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 70
+    type: socks5
+    server: 192.53.67.126
+    port: "5675"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 71
+    type: socks5
+    server: 206.228.113.134
+    port: "6352"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 72
+    type: socks5
+    server: 216.98.231.157
+    port: "6174"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 73
+    type: socks5
+    server: 192.53.67.185
+    port: "5734"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 74
+    type: socks5
+    server: 192.46.190.169
+    port: "6762"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 75
+    type: socks5
+    server: 193.160.82.11
+    port: "5983"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 76
+    type: socks5
+    server: 216.98.243.213
+    port: "5902"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 77
+    type: socks5
+    server: 192.46.203.85
+    port: "6051"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 78
+    type: socks5
+    server: 216.98.243.43
+    port: "5732"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 79
+    type: socks5
+    server: 192.53.67.145
+    port: "5694"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 80
+    type: socks5
+    server: 206.228.117.132
+    port: "6252"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 81
+    type: socks5
+    server: 63.161.17.28
+    port: "6791"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 82
+    type: socks5
+    server: 216.98.243.192
+    port: "5881"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 83
+    type: socks5
+    server: 63.141.62.83
+    port: "6376"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 84
+    type: socks5
+    server: 206.228.114.48
+    port: "6530"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 85
+    type: socks5
+    server: 216.98.243.197
+    port: "5886"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 86
+    type: socks5
+    server: 192.46.188.151
+    port: "5810"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 87
+    type: socks5
+    server: 192.53.66.187
+    port: "6293"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 88
+    type: socks5
+    server: 63.161.29.41
+    port: "5671"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 89
+    type: socks5
+    server: 216.98.231.74
+    port: "6091"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 90
+    type: socks5
+    server: 192.46.201.13
+    port: "6527"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 91
+    type: socks5
+    server: 63.161.28.75
+    port: "6057"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 92
+    type: socks5
+    server: 45.248.55.180
+    port: "6766"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 93
+    type: socks5
+    server: 192.46.200.62
+    port: "5732"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 94
+    type: socks5
+    server: 216.98.243.133
+    port: "5822"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 95
+    type: socks5
+    server: 206.228.115.78
+    port: "5994"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 96
+    type: socks5
+    server: 192.46.189.223
+    port: "6216"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 97
+    type: socks5
+    server: 192.46.190.152
+    port: "6745"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 98
+    type: socks5
+    server: 206.228.113.92
+    port: "6310"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 99
+    type: socks5
+    server: 192.53.138.91
+    port: "6029"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 100
+    type: socks5
+    server: 192.145.71.194
+    port: "6831"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 101
+    type: socks5
+    server: 206.228.118.79
+    port: "5848"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 102
+    type: socks5
+    server: 63.161.29.55
+    port: "5685"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 103
+    type: socks5
+    server: 216.98.235.209
+    port: "6501"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 104
+    type: socks5
+    server: 192.53.69.104
+    port: "6742"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 105
+    type: socks5
+    server: 63.161.29.156
+    port: "5786"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 106
+    type: socks5
+    server: 207.13.199.164
+    port: "5822"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 107
+    type: socks5
+    server: 63.161.23.195
+    port: "6498"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 108
+    type: socks5
+    server: 216.98.231.114
+    port: "6131"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 109
+    type: socks5
+    server: 63.161.28.123
+    port: "6105"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 110
+    type: socks5
+    server: 192.53.69.178
+    port: "6816"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 111
+    type: socks5
+    server: 63.161.18.185
+    port: "6620"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 112
+    type: socks5
+    server: 63.161.17.108
+    port: "6871"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 113
+    type: socks5
+    server: 206.228.118.10
+    port: "5779"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 114
+    type: socks5
+    server: 63.161.22.16
+    port: "6670"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 115
+    type: socks5
+    server: 192.145.71.111
+    port: "6748"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 116
+    type: socks5
+    server: 192.46.189.50
+    port: "6043"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 117
+    type: socks5
+    server: 192.53.140.89
+    port: "5185"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 118
+    type: socks5
+    server: 192.46.185.52
+    port: "5742"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 119
+    type: socks5
+    server: 192.46.185.25
+    port: "5715"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 120
+    type: socks5
+    server: 192.46.185.75
+    port: "5765"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 121
+    type: socks5
+    server: 192.53.140.15
+    port: "5111"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 122
+    type: socks5
+    server: 216.98.231.76
+    port: "6093"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 123
+    type: socks5
+    server: 63.161.31.243
+    port: "5915"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 124
+    type: socks5
+    server: 192.46.200.46
+    port: "5716"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 125
+    type: socks5
+    server: 45.248.55.185
+    port: "6771"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 126
+    type: socks5
+    server: 216.98.229.51
+    port: "6367"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 127
+    type: socks5
+    server: 207.13.199.79
+    port: "5737"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 128
+    type: socks5
+    server: 192.53.138.117
+    port: "6055"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 129
+    type: socks5
+    server: 63.141.62.50
+    port: "6343"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 130
+    type: socks5
+    server: 192.46.203.158
+    port: "6124"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 131
+    type: socks5
+    server: 192.53.67.93
+    port: "5642"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 132
+    type: socks5
+    server: 198.145.103.187
+    port: "6444"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 133
+    type: socks5
+    server: 198.145.103.226
+    port: "6483"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 134
+    type: socks5
+    server: 206.228.115.250
+    port: "6166"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 135
+    type: socks5
+    server: 193.160.80.171
+    port: "6439"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 136
+    type: socks5
+    server: 63.161.23.235
+    port: "6538"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 137
+    type: socks5
+    server: 216.98.229.80
+    port: "6396"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 138
+    type: socks5
+    server: 216.98.233.2
+    port: "6582"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 139
+    type: socks5
+    server: 192.53.142.132
+    port: "5829"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 140
+    type: socks5
+    server: 206.228.115.33
+    port: "5949"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 141
+    type: socks5
+    server: 206.228.118.66
+    port: "5835"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 142
+    type: socks5
+    server: 63.161.23.70
+    port: "6373"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 143
+    type: socks5
+    server: 192.145.71.50
+    port: "6687"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 144
+    type: socks5
+    server: 192.46.188.150
+    port: "5809"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 145
+    type: socks5
+    server: 192.53.137.6
+    port: "6294"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 146
+    type: socks5
+    server: 192.53.66.241
+    port: "6347"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 147
+    type: socks5
+    server: 192.46.200.189
+    port: "5859"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 148
+    type: socks5
+    server: 216.98.243.30
+    port: "5719"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 149
+    type: socks5
+    server: 63.161.23.115
+    port: "6418"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 150
+    type: socks5
+    server: 207.13.199.185
+    port: "5843"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 151
+    type: socks5
+    server: 192.46.189.211
+    port: "6204"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 152
+    type: socks5
+    server: 206.228.117.46
+    port: "6166"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 153
+    type: socks5
+    server: 192.53.70.66
+    port: "5780"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 154
+    type: socks5
+    server: 192.145.71.165
+    port: "6802"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 155
+    type: socks5
+    server: 193.160.80.159
+    port: "6427"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 156
+    type: socks5
+    server: 63.161.25.107
+    port: "6721"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 157
+    type: socks5
+    server: 192.46.189.121
+    port: "6114"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 158
+    type: socks5
+    server: 192.46.189.145
+    port: "6138"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 159
+    type: socks5
+    server: 206.228.114.116
+    port: "6598"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 160
+    type: socks5
+    server: 216.98.229.13
+    port: "6329"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 161
+    type: socks5
+    server: 192.46.187.229
+    port: "6807"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 162
+    type: socks5
+    server: 192.46.187.41
+    port: "6619"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 163
+    type: socks5
+    server: 63.161.22.227
+    port: "6881"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 164
+    type: socks5
+    server: 192.46.187.10
+    port: "6588"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 165
+    type: socks5
+    server: 192.53.67.188
+    port: "5737"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 166
+    type: socks5
+    server: 192.53.67.197
+    port: "5746"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 167
+    type: socks5
+    server: 192.53.137.119
+    port: "6407"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 168
+    type: socks5
+    server: 216.98.243.103
+    port: "5792"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 169
+    type: socks5
+    server: 216.98.230.46
+    port: "6035"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 170
+    type: socks5
+    server: 216.98.235.15
+    port: "6307"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 171
+    type: socks5
+    server: 63.161.28.78
+    port: "6060"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 172
+    type: socks5
+    server: 63.141.62.86
+    port: "6379"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 173
+    type: socks5
+    server: 192.53.69.207
+    port: "6845"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 174
+    type: socks5
+    server: 192.53.70.224
+    port: "5938"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 175
+    type: socks5
+    server: 185.253.122.118
+    port: "5927"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 176
+    type: socks5
+    server: 192.53.69.24
+    port: "6662"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 177
+    type: socks5
+    server: 206.228.118.59
+    port: "5828"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 178
+    type: socks5
+    server: 63.141.62.5
+    port: "6298"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 179
+    type: socks5
+    server: 192.53.140.129
+    port: "5225"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 180
+    type: socks5
+    server: 192.46.201.105
+    port: "6619"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 181
+    type: socks5
+    server: 63.141.58.83
+    port: "6399"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 182
+    type: socks5
+    server: 216.98.227.69
+    port: "6723"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 183
+    type: socks5
+    server: 206.228.117.10
+    port: "6130"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 184
+    type: socks5
+    server: 192.46.189.229
+    port: "6222"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 185
+    type: socks5
+    server: 192.53.66.103
+    port: "6209"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 186
+    type: socks5
+    server: 63.161.25.65
+    port: "6679"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 187
+    type: socks5
+    server: 192.46.188.111
+    port: "5770"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 188
+    type: socks5
+    server: 63.161.23.140
+    port: "6443"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 189
+    type: socks5
+    server: 192.53.142.2
+    port: "5699"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 190
+    type: socks5
+    server: 192.46.185.177
+    port: "5867"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 191
+    type: socks5
+    server: 63.161.31.6
+    port: "5678"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 192
+    type: socks5
+    server: 216.98.233.218
+    port: "6798"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 193
+    type: socks5
+    server: 63.161.22.108
+    port: "6762"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 194
+    type: socks5
+    server: 206.228.115.52
+    port: "5968"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 195
+    type: socks5
+    server: 193.160.83.137
+    port: "6458"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 196
+    type: socks5
+    server: 192.46.185.213
+    port: "5903"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 197
+    type: socks5
+    server: 63.161.23.68
+    port: "6371"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 198
+    type: socks5
+    server: 192.46.200.246
+    port: "5916"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 199
+    type: socks5
+    server: 63.161.17.187
+    port: "6950"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 200
+    type: socks5
+    server: 63.161.22.184
+    port: "6838"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 201
+    type: socks5
+    server: 206.228.114.219
+    port: "6701"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 202
+    type: socks5
+    server: 63.161.31.16
+    port: "5688"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 203
+    type: socks5
+    server: 192.53.138.20
+    port: "5958"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 204
+    type: socks5
+    server: 63.161.23.126
+    port: "6429"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 205
+    type: socks5
+    server: 216.98.231.141
+    port: "6158"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 206
+    type: socks5
+    server: 192.46.203.166
+    port: "6132"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 207
+    type: socks5
+    server: 206.228.114.64
+    port: "6546"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 208
+    type: socks5
+    server: 63.161.22.145
+    port: "6799"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 209
+    type: socks5
+    server: 63.161.22.28
+    port: "6682"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 210
+    type: socks5
+    server: 63.161.26.226
+    port: "6517"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 211
+    type: socks5
+    server: 63.161.22.110
+    port: "6764"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 212
+    type: socks5
+    server: 63.161.25.190
+    port: "6804"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 213
+    type: socks5
+    server: 63.161.17.89
+    port: "6852"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 214
+    type: socks5
+    server: 63.161.26.113
+    port: "6404"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 215
+    type: socks5
+    server: 63.161.20.40
+    port: "6026"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 216
+    type: socks5
+    server: 216.98.227.105
+    port: "6759"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 217
+    type: socks5
+    server: 216.98.230.169
+    port: "6158"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 218
+    type: socks5
+    server: 192.53.66.147
+    port: "6253"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 219
+    type: socks5
+    server: 206.228.113.101
+    port: "6319"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 220
+    type: socks5
+    server: 206.228.113.173
+    port: "6391"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 221
+    type: socks5
+    server: 216.98.233.65
+    port: "6645"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 222
+    type: socks5
+    server: 216.98.229.40
+    port: "6356"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 223
+    type: socks5
+    server: 192.46.185.133
+    port: "5823"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 224
+    type: socks5
+    server: 63.141.62.109
+    port: "6402"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 225
+    type: socks5
+    server: 192.53.142.6
+    port: "5703"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 226
+    type: socks5
+    server: 63.141.62.16
+    port: "6309"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 227
+    type: socks5
+    server: 216.98.229.43
+    port: "6359"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 228
+    type: socks5
+    server: 192.46.203.185
+    port: "6151"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 229
+    type: socks5
+    server: 63.161.31.228
+    port: "5900"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 230
+    type: socks5
+    server: 206.228.118.210
+    port: "5979"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 231
+    type: socks5
+    server: 63.161.31.247
+    port: "5919"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 232
+    type: socks5
+    server: 63.161.22.127
+    port: "6781"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 233
+    type: socks5
+    server: 192.46.190.227
+    port: "6820"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 234
+    type: socks5
+    server: 192.46.200.77
+    port: "5747"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 235
+    type: socks5
+    server: 192.46.203.233
+    port: "6199"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 236
+    type: socks5
+    server: 206.228.118.149
+    port: "5918"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 237
+    type: socks5
+    server: 63.161.25.221
+    port: "6835"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 238
+    type: socks5
+    server: 206.228.114.7
+    port: "6489"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 239
+    type: socks5
+    server: 192.53.140.87
+    port: "5183"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 240
+    type: socks5
+    server: 192.46.190.112
+    port: "6705"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 241
+    type: socks5
+    server: 216.98.227.58
+    port: "6712"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 242
+    type: socks5
+    server: 63.161.23.205
+    port: "6508"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 243
+    type: socks5
+    server: 192.46.189.5
+    port: "5998"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 244
+    type: socks5
+    server: 206.228.114.108
+    port: "6590"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 245
+    type: socks5
+    server: 63.141.58.147
+    port: "6463"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 246
+    type: socks5
+    server: 192.46.185.130
+    port: "5820"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 247
+    type: socks5
+    server: 216.98.229.163
+    port: "6479"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 248
+    type: socks5
+    server: 192.46.185.69
+    port: "5759"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 249
+    type: socks5
+    server: 192.53.137.45
+    port: "6333"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 250
+    type: socks5
+    server: 216.98.229.199
+    port: "6515"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 251
+    type: socks5
+    server: 216.98.230.38
+    port: "6027"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 252
+    type: socks5
+    server: 216.98.229.145
+    port: "6461"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 253
+    type: socks5
+    server: 206.228.113.221
+    port: "6439"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 254
+    type: socks5
+    server: 192.46.187.198
+    port: "6776"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 255
+    type: socks5
+    server: 192.46.200.181
+    port: "5851"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 256
+    type: socks5
+    server: 192.46.187.181
+    port: "6759"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 257
+    type: socks5
+    server: 63.161.22.6
+    port: "6660"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 258
+    type: socks5
+    server: 63.161.20.67
+    port: "6053"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 259
+    type: socks5
+    server: 192.53.67.233
+    port: "5782"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 260
+    type: socks5
+    server: 63.141.62.36
+    port: "6329"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 261
+    type: socks5
+    server: 192.53.66.160
+    port: "6266"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 262
+    type: socks5
+    server: 63.161.20.89
+    port: "6075"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 263
+    type: socks5
+    server: 192.53.137.66
+    port: "6354"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 264
+    type: socks5
+    server: 63.161.18.54
+    port: "6489"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 265
+    type: socks5
+    server: 192.46.189.146
+    port: "6139"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 266
+    type: socks5
+    server: 192.53.137.142
+    port: "6430"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 267
+    type: socks5
+    server: 207.13.199.62
+    port: "5720"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 268
+    type: socks5
+    server: 63.161.25.181
+    port: "6795"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 269
+    type: socks5
+    server: 192.46.201.66
+    port: "6580"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 270
+    type: socks5
+    server: 216.98.243.146
+    port: "5835"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 271
+    type: socks5
+    server: 192.46.190.190
+    port: "6783"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 272
+    type: socks5
+    server: 193.160.80.0
+    port: "6268"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 273
+    type: socks5
+    server: 63.161.23.135
+    port: "6438"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 274
+    type: socks5
+    server: 192.46.200.81
+    port: "5751"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 275
+    type: socks5
+    server: 63.161.17.111
+    port: "6874"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 276
+    type: socks5
+    server: 192.53.137.4
+    port: "6292"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 277
+    type: socks5
+    server: 192.46.185.193
+    port: "5883"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 278
+    type: socks5
+    server: 192.46.187.252
+    port: "6830"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 279
+    type: socks5
+    server: 206.228.114.49
+    port: "6531"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 280
+    type: socks5
+    server: 206.228.115.253
+    port: "6169"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 281
+    type: socks5
+    server: 216.98.235.50
+    port: "6342"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 282
+    type: socks5
+    server: 45.248.55.115
+    port: "6701"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 283
+    type: socks5
+    server: 63.141.62.161
+    port: "6454"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 284
+    type: socks5
+    server: 206.228.117.137
+    port: "6257"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 285
+    type: socks5
+    server: 192.46.190.29
+    port: "6622"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 286
+    type: socks5
+    server: 216.98.230.145
+    port: "6134"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 287
+    type: socks5
+    server: 192.53.69.19
+    port: "6657"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 288
+    type: socks5
+    server: 192.46.201.45
+    port: "6559"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 289
+    type: socks5
+    server: 192.46.185.17
+    port: "5707"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 290
+    type: socks5
+    server: 192.53.140.178
+    port: "5274"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 291
+    type: socks5
+    server: 216.98.229.147
+    port: "6463"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 292
+    type: socks5
+    server: 192.53.69.168
+    port: "6806"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 293
+    type: socks5
+    server: 63.161.29.185
+    port: "5815"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 294
+    type: socks5
+    server: 192.53.140.155
+    port: "5251"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 295
+    type: socks5
+    server: 192.46.189.142
+    port: "6135"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 296
+    type: socks5
+    server: 216.98.230.20
+    port: "6009"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 297
+    type: socks5
+    server: 63.161.17.126
+    port: "6889"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 298
+    type: socks5
+    server: 206.228.118.222
+    port: "5991"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 299
+    type: socks5
+    server: 45.248.55.195
+    port: "6781"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 300
+    type: socks5
+    server: 192.53.66.144
+    port: "6250"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 301
+    type: socks5
+    server: 192.53.137.46
+    port: "6334"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 302
+    type: socks5
+    server: 216.98.233.161
+    port: "6741"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 303
+    type: socks5
+    server: 63.161.25.210
+    port: "6824"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 304
+    type: socks5
+    server: 63.161.17.50
+    port: "6813"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 305
+    type: socks5
+    server: 192.46.189.101
+    port: "6094"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 306
+    type: socks5
+    server: 192.46.189.123
+    port: "6116"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 307
+    type: socks5
+    server: 63.161.17.185
+    port: "6948"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 308
+    type: socks5
+    server: 192.46.187.13
+    port: "6591"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 309
+    type: socks5
+    server: 206.228.115.50
+    port: "5966"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 310
+    type: socks5
+    server: 192.46.188.43
+    port: "5702"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 311
+    type: socks5
+    server: 63.161.28.166
+    port: "6148"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 312
+    type: socks5
+    server: 206.228.118.163
+    port: "5932"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 313
+    type: socks5
+    server: 192.46.190.200
+    port: "6793"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 314
+    type: socks5
+    server: 206.228.115.82
+    port: "5998"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 315
+    type: socks5
+    server: 216.98.229.253
+    port: "6569"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 316
+    type: socks5
+    server: 192.53.66.145
+    port: "6251"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 317
+    type: socks5
+    server: 198.145.103.100
+    port: "6357"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 318
+    type: socks5
+    server: 216.98.230.219
+    port: "6208"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 319
+    type: socks5
+    server: 63.161.23.48
+    port: "6351"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 320
+    type: socks5
+    server: 63.161.25.40
+    port: "6654"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 321
+    type: socks5
+    server: 216.98.243.98
+    port: "5787"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 322
+    type: socks5
+    server: 192.46.188.18
+    port: "5677"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 323
+    type: socks5
+    server: 198.145.103.80
+    port: "6337"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 324
+    type: socks5
+    server: 206.228.117.60
+    port: "6180"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 325
+    type: socks5
+    server: 216.98.227.131
+    port: "6785"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 326
+    type: socks5
+    server: 192.46.185.181
+    port: "5871"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 327
+    type: socks5
+    server: 192.145.71.193
+    port: "6830"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 328
+    type: socks5
+    server: 216.98.229.235
+    port: "6551"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 329
+    type: socks5
+    server: 192.53.142.143
+    port: "5840"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 330
+    type: socks5
+    server: 198.145.103.233
+    port: "6490"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 331
+    type: socks5
+    server: 192.46.201.18
+    port: "6532"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 332
+    type: socks5
+    server: 192.46.188.179
+    port: "5838"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 333
+    type: socks5
+    server: 192.46.190.176
+    port: "6769"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 334
+    type: socks5
+    server: 192.46.185.224
+    port: "5914"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 335
+    type: socks5
+    server: 63.141.62.140
+    port: "6433"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 336
+    type: socks5
+    server: 192.53.66.184
+    port: "6290"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 337
+    type: socks5
+    server: 63.161.18.32
+    port: "6467"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 338
+    type: socks5
+    server: 63.141.62.234
+    port: "6527"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 339
+    type: socks5
+    server: 192.53.67.135
+    port: "5684"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 340
+    type: socks5
+    server: 192.53.66.229
+    port: "6335"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 341
+    type: socks5
+    server: 63.161.26.162
+    port: "6453"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 342
+    type: socks5
+    server: 207.13.199.207
+    port: "5865"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 343
+    type: socks5
+    server: 63.161.22.153
+    port: "6807"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 344
+    type: socks5
+    server: 216.98.243.112
+    port: "5801"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 345
+    type: socks5
+    server: 63.161.31.145
+    port: "5817"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 346
+    type: socks5
+    server: 192.53.138.9
+    port: "5947"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 347
+    type: socks5
+    server: 63.161.23.237
+    port: "6540"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 348
+    type: socks5
+    server: 192.53.69.51
+    port: "6689"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 349
+    type: socks5
+    server: 206.228.118.216
+    port: "5985"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 350
+    type: socks5
+    server: 63.161.22.187
+    port: "6841"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 351
+    type: socks5
+    server: 63.161.17.82
+    port: "6845"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 352
+    type: socks5
+    server: 192.46.188.34
+    port: "5693"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 353
+    type: socks5
+    server: 192.145.71.163
+    port: "6800"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 354
+    type: socks5
+    server: 63.161.20.176
+    port: "6162"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 355
+    type: socks5
+    server: 192.46.200.199
+    port: "5869"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 356
+    type: socks5
+    server: 192.53.138.253
+    port: "6191"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 357
+    type: socks5
+    server: 63.161.31.222
+    port: "5894"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 358
+    type: socks5
+    server: 216.98.235.22
+    port: "6314"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 359
+    type: socks5
+    server: 216.98.243.60
+    port: "5749"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 360
+    type: socks5
+    server: 216.98.243.235
+    port: "5924"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 361
+    type: socks5
+    server: 216.98.233.136
+    port: "6716"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 362
+    type: socks5
+    server: 192.46.190.157
+    port: "6750"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 363
+    type: socks5
+    server: 206.228.114.81
+    port: "6563"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 364
+    type: socks5
+    server: 63.161.31.152
+    port: "5824"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 365
+    type: socks5
+    server: 206.228.117.209
+    port: "6329"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 366
+    type: socks5
+    server: 63.161.26.10
+    port: "6301"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 367
+    type: socks5
+    server: 192.53.69.140
+    port: "6778"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 368
+    type: socks5
+    server: 63.161.29.72
+    port: "5702"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 369
+    type: socks5
+    server: 206.228.113.44
+    port: "6262"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 370
+    type: socks5
+    server: 192.46.189.99
+    port: "6092"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 371
+    type: socks5
+    server: 192.53.67.62
+    port: "5611"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 372
+    type: socks5
+    server: 192.53.66.34
+    port: "6140"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 373
+    type: socks5
+    server: 216.98.229.121
+    port: "6437"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 374
+    type: socks5
+    server: 206.228.117.22
+    port: "6142"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 375
+    type: socks5
+    server: 192.53.142.89
+    port: "5786"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 376
+    type: socks5
+    server: 192.46.188.44
+    port: "5703"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 377
+    type: socks5
+    server: 45.248.55.240
+    port: "6826"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 378
+    type: socks5
+    server: 216.98.243.63
+    port: "5752"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 379
+    type: socks5
+    server: 192.53.69.151
+    port: "6789"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 380
+    type: socks5
+    server: 192.53.66.148
+    port: "6254"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 381
+    type: socks5
+    server: 192.53.137.168
+    port: "6456"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 382
+    type: socks5
+    server: 192.46.189.174
+    port: "6167"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 383
+    type: socks5
+    server: 63.161.17.6
+    port: "6769"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 384
+    type: socks5
+    server: 192.53.70.114
+    port: "5828"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 385
+    type: socks5
+    server: 63.161.20.60
+    port: "6046"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 386
+    type: socks5
+    server: 63.141.62.170
+    port: "6463"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 387
+    type: socks5
+    server: 206.228.113.18
+    port: "6236"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 388
+    type: socks5
+    server: 192.53.142.146
+    port: "5843"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 389
+    type: socks5
+    server: 192.53.138.1
+    port: "5939"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 390
+    type: socks5
+    server: 216.98.229.54
+    port: "6370"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 391
+    type: socks5
+    server: 206.228.114.204
+    port: "6686"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 392
+    type: socks5
+    server: 216.98.243.195
+    port: "5884"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 393
+    type: socks5
+    server: 192.53.140.123
+    port: "5219"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 394
+    type: socks5
+    server: 216.98.243.209
+    port: "5898"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 395
+    type: socks5
+    server: 192.46.185.73
+    port: "5763"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 396
+    type: socks5
+    server: 192.53.66.248
+    port: "6354"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 397
+    type: socks5
+    server: 63.161.22.25
+    port: "6679"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 398
+    type: socks5
+    server: 192.46.190.26
+    port: "6619"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 399
+    type: socks5
+    server: 63.161.24.202
+    port: "5905"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 400
+    type: socks5
+    server: 198.145.103.37
+    port: "6294"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 401
+    type: socks5
+    server: 216.98.235.29
+    port: "6321"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 402
+    type: socks5
+    server: 63.161.18.104
+    port: "6539"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 403
+    type: socks5
+    server: 192.46.188.49
+    port: "5708"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 404
+    type: socks5
+    server: 207.13.199.69
+    port: "5727"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 405
+    type: socks5
+    server: 216.98.229.137
+    port: "6453"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 406
+    type: socks5
+    server: 206.228.113.104
+    port: "6322"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 407
+    type: socks5
+    server: 206.228.118.40
+    port: "5809"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 408
+    type: socks5
+    server: 192.53.67.79
+    port: "5628"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 409
+    type: socks5
+    server: 206.228.113.86
+    port: "6304"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 410
+    type: socks5
+    server: 207.13.199.127
+    port: "5785"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 411
+    type: socks5
+    server: 63.161.31.27
+    port: "5699"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 412
+    type: socks5
+    server: 206.228.118.78
+    port: "5847"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 413
+    type: socks5
+    server: 192.46.200.143
+    port: "5813"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 414
+    type: socks5
+    server: 192.53.66.48
+    port: "6154"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 415
+    type: socks5
+    server: 192.53.70.132
+    port: "5846"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 416
+    type: socks5
+    server: 192.46.200.183
+    port: "5853"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 417
+    type: socks5
+    server: 198.145.103.31
+    port: "6288"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 418
+    type: socks5
+    server: 192.46.190.37
+    port: "6630"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 419
+    type: socks5
+    server: 63.141.62.122
+    port: "6415"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 420
+    type: socks5
+    server: 192.53.137.53
+    port: "6341"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 421
+    type: socks5
+    server: 45.248.55.123
+    port: "6709"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 422
+    type: socks5
+    server: 63.161.22.170
+    port: "6824"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 423
+    type: socks5
+    server: 192.46.200.212
+    port: "5882"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 424
+    type: socks5
+    server: 192.46.188.240
+    port: "5899"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 425
+    type: socks5
+    server: 192.46.200.95
+    port: "5765"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 426
+    type: socks5
+    server: 63.161.25.148
+    port: "6762"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 427
+    type: socks5
+    server: 63.161.22.44
+    port: "6698"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 428
+    type: socks5
+    server: 206.228.114.41
+    port: "6523"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 429
+    type: socks5
+    server: 206.228.118.140
+    port: "5909"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 430
+    type: socks5
+    server: 198.145.103.87
+    port: "6344"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 431
+    type: socks5
+    server: 192.53.140.54
+    port: "5150"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 432
+    type: socks5
+    server: 216.98.229.100
+    port: "6416"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 433
+    type: socks5
+    server: 206.228.114.69
+    port: "6551"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 434
+    type: socks5
+    server: 63.161.31.7
+    port: "5679"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 435
+    type: socks5
+    server: 192.53.140.188
+    port: "5284"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 436
+    type: socks5
+    server: 206.228.113.107
+    port: "6325"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 437
+    type: socks5
+    server: 192.145.71.184
+    port: "6821"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 438
+    type: socks5
+    server: 216.98.243.85
+    port: "5774"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 439
+    type: socks5
+    server: 192.53.69.88
+    port: "6726"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 440
+    type: socks5
+    server: 207.13.199.137
+    port: "5795"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 441
+    type: socks5
+    server: 192.46.189.248
+    port: "6241"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 442
+    type: socks5
+    server: 216.98.229.115
+    port: "6431"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 443
+    type: socks5
+    server: 192.46.200.114
+    port: "5784"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 444
+    type: socks5
+    server: 63.161.23.186
+    port: "6489"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 445
+    type: socks5
+    server: 63.161.20.209
+    port: "6195"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 446
+    type: socks5
+    server: 63.161.25.198
+    port: "6812"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 447
+    type: socks5
+    server: 192.46.189.91
+    port: "6084"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 448
+    type: socks5
+    server: 216.98.230.212
+    port: "6201"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 449
+    type: socks5
+    server: 185.253.122.147
+    port: "5956"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 450
+    type: socks5
+    server: 63.161.20.126
+    port: "6112"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 451
+    type: socks5
+    server: 206.228.114.98
+    port: "6580"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 452
+    type: socks5
+    server: 216.98.229.193
+    port: "6509"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 453
+    type: socks5
+    server: 192.46.189.167
+    port: "6160"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 454
+    type: socks5
+    server: 63.161.18.199
+    port: "6634"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 455
+    type: socks5
+    server: 63.161.26.148
+    port: "6439"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 456
+    type: socks5
+    server: 63.141.58.90
+    port: "6406"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 457
+    type: socks5
+    server: 63.161.23.125
+    port: "6428"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 458
+    type: socks5
+    server: 63.161.22.188
+    port: "6842"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 459
+    type: socks5
+    server: 192.53.69.34
+    port: "6672"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 460
+    type: socks5
+    server: 63.161.31.74
+    port: "5746"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 461
+    type: socks5
+    server: 192.145.71.112
+    port: "6749"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 462
+    type: socks5
+    server: 206.228.118.130
+    port: "5899"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 463
+    type: socks5
+    server: 206.228.114.201
+    port: "6683"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 464
+    type: socks5
+    server: 192.53.138.211
+    port: "6149"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 465
+    type: socks5
+    server: 216.98.230.111
+    port: "6100"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 466
+    type: socks5
+    server: 216.98.231.112
+    port: "6129"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 467
+    type: socks5
+    server: 192.53.67.49
+    port: "5598"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 468
+    type: socks5
+    server: 216.98.227.16
+    port: "6670"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 469
+    type: socks5
+    server: 206.228.114.63
+    port: "6545"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 470
+    type: socks5
+    server: 216.98.229.201
+    port: "6517"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 471
+    type: socks5
+    server: 206.228.118.236
+    port: "6005"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 472
+    type: socks5
+    server: 192.53.137.120
+    port: "6408"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 473
+    type: socks5
+    server: 192.53.142.247
+    port: "5944"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 474
+    type: socks5
+    server: 192.53.66.46
+    port: "6152"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 475
+    type: socks5
+    server: 63.161.28.211
+    port: "6193"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 476
+    type: socks5
+    server: 192.53.67.219
+    port: "5768"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 477
+    type: socks5
+    server: 63.161.28.48
+    port: "6030"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 478
+    type: socks5
+    server: 192.53.67.10
+    port: "5559"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 479
+    type: socks5
+    server: 192.53.69.44
+    port: "6682"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 480
+    type: socks5
+    server: 216.98.243.135
+    port: "5824"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 481
+    type: socks5
+    server: 63.161.17.75
+    port: "6838"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 482
+    type: socks5
+    server: 192.46.200.159
+    port: "5829"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 483
+    type: socks5
+    server: 198.145.103.161
+    port: "6418"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 484
+    type: socks5
+    server: 216.98.230.140
+    port: "6129"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 485
+    type: socks5
+    server: 216.98.229.151
+    port: "6467"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 486
+    type: socks5
+    server: 192.53.70.8
+    port: "5722"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 487
+    type: socks5
+    server: 206.228.115.227
+    port: "6143"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 488
+    type: socks5
+    server: 192.145.71.177
+    port: "6814"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 489
+    type: socks5
+    server: 192.46.201.161
+    port: "6675"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 490
+    type: socks5
+    server: 207.13.199.107
+    port: "5765"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 491
+    type: socks5
+    server: 192.53.70.122
+    port: "5836"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 492
+    type: socks5
+    server: 63.161.28.145
+    port: "6127"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 493
+    type: socks5
+    server: 192.145.71.6
+    port: "6643"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 494
+    type: socks5
+    server: 216.98.230.80
+    port: "6069"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 495
+    type: socks5
+    server: 192.46.187.126
+    port: "6704"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 496
+    type: socks5
+    server: 216.98.243.72
+    port: "5761"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 497
+    type: socks5
+    server: 198.145.103.137
+    port: "6394"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 498
+    type: socks5
+    server: 192.53.67.226
+    port: "5775"
+    username: TTTT8888
+    password: TTTT8888
+  - name: FB 499
+    type: socks5
+    server: 192.53.137.185
+    port: "6473"
+    username: TTTT8888
+    password: TTTT8888
+proxy-groups: []
+cfw-latency-timeout: 5000
